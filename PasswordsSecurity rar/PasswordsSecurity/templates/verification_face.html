@@ -1,0 +1,40 @@
+{%include "header.html" %}
+
+  {% if msg %}
+
+		<script>alert('Face not matched..!')</script>
+
+    {% endif %}
+<div class="breadcrumb-agile py-1">
+		<ol class="breadcrumb m-0">
+			<li class="breadcrumb-item">
+				<a href="">DataUser Login</a>
+			</li>
+			<li class="breadcrumb-item active" aria-current="page"></li>
+		</ol>
+	</div>
+<section class="logins py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="title-section mb-md-5 mb-4">
+				<h6 class="w3ls-title-sub"></h6>
+				<h3 class="w3ls-title text-uppercase text-dark font-weight-bold">Face Verification</h3>
+			</div>
+			<div class="login px-sm-4 mx-auto mw-100 login-wrapper">
+				
+
+
+					<div class="form-group">
+				
+						 <img class="img" src="{{ url_for('video_feed2') }}" width="700px">
+
+					</div>
+				
+					 <a href=/face_authenticate><button type="submit" class="btn submit mt-4">Submit</button></a>
+					<p class="text-center mt-5">
+						
+					</p>
+			
+			</div>
+		</div>
+	</section>
+{%include "footer.html" %}
