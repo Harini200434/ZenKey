@@ -1,3 +1,4 @@
+--only-binary=:all:
 setuptools==68.2.2
 wheel
 numpy==1.23.5
