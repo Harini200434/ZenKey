@@ -1,3 +1,6 @@
+setuptools==68.2.2
+wheel
+numpy==1.24.4 --only-binary=:all:
 blinker==1.8.2
 click==8.1.8
 cmake==4.0.3
@@ -13,7 +16,6 @@ jinja2==3.1.6
 joblib==1.4.2
 MarkupSafe==2.1.5
 mysql-connector-python==9.0.0
-numpy==1.24.4
 opencv-python==4.12.0.88
 opencv-python-headless==4.12.0.88
 pandas==2.0.3
